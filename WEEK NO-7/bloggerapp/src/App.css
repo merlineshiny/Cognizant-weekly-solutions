@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.container > div {
+  border-left: 3px solid green;
+  padding: 0 20px;
+}
